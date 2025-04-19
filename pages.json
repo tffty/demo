@@ -1,0 +1,113 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "轻院知",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path" : "pages/user/user",
+			"style" : 
+			{
+				"navigationBarTitleText" : "",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path" : "pages/community/community",
+			"style" : 
+			{
+				"navigationBarTitleText" : "",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path" : "pages/n1/n1",
+			"style" : 
+			{
+				"navigationBarTitleText" : "",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path" : "pages/n2/n2",
+			"style" : 
+			{
+				"navigationBarTitleText" : "",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path" : "pages/n3/n3",
+			"style" : 
+			{
+				"navigationBarTitleText" : "",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path" : "pages/n4/n4",
+			"style" : 
+			{
+				"navigationBarTitleText" : "",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path" : "pages/send/send",
+			"style" : 
+			{
+				"navigationBarTitleText" : "",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path" : "pages/category-detail/category-detail",
+			"style" : 
+			{
+				"navigationBarTitleText" : "",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path" : "pages/postgraduate-detail/postgraduate-detail",
+			"style" : 
+			{
+				"navigationBarTitleText" : "",
+				"navigationStyle": "custom"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "轻院知",
+		"navigationBarBackgroundColor": "#fff",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar":{
+		"color": "#9799a5",
+		"selectedColor": "#28B389",
+		"list":[
+			{
+				"text":"论坛",
+				"pagePath": "pages/community/community",
+				"iconPath": "/static/images/commont.jpg",
+				"selectedIconPath": "/static/images/commont.png"
+			},{
+				"text":"首页",
+				"pagePath": "pages/index/index",
+				"iconPath": "/static/images/school.png",
+				"selectedIconPath": "/static/images/school-h.png"
+			},{
+				"text":"个人",
+				"pagePath": "pages/user/user",
+				"iconPath": "/static/images/y0dM3gcAO9.jpg",
+				"selectedIconPath": "/static/images/y0dM3gcAO9.png"
+
+			}
+		]
+	},
+	"uniIdRouter": {}
+}

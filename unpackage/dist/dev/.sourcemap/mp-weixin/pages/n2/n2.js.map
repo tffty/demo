@@ -1,0 +1,1 @@
+{"version":3,"file":"n2.js","sources":["D:/HBuilderX/plugins/uniapp-cli-vite/uniPage:/cGFnZXMvbjIvbjIudnVl"],"sourcesContent":["import MiniProgramPage from 'C:/Users/Lenovo/Desktop/demo1/pages/n2/n2.vue'\nwx.createPage(MiniProgramPage)"],"names":[],"mappings":";;;;;;;AACA,GAAG,WAAW,eAAe;"}

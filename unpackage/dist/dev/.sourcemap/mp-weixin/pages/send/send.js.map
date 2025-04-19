@@ -1,0 +1,1 @@
+{"version":3,"file":"send.js","sources":["D:/HBuilderX/plugins/uniapp-cli-vite/uniPage:/cGFnZXMvc2VuZC9zZW5kLnZ1ZQ"],"sourcesContent":["import MiniProgramPage from 'C:/Users/Lenovo/Desktop/demo1/pages/send/send.vue'\nwx.createPage(MiniProgramPage)"],"names":[],"mappings":";;;;;;;AACA,GAAG,WAAW,eAAe;"}

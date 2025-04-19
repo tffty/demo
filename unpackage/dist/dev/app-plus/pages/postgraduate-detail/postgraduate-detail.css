@@ -1,0 +1,41 @@
+
+.detail-container[data-v-7aa04925] {
+    min-height: 100vh;
+    background-color: #f5f5f5;
+}
+
+/* 新增状态栏样式 */
+.status-bar[data-v-7aa04925] {
+    height: 20px;
+    background-color: #007aff;
+}
+.nav-bar[data-v-7aa04925] {
+    height: 44px;
+    background-color: #007aff;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.back-button[data-v-7aa04925] {
+    position: absolute;
+    left: 15px;
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+}
+.nav-title[data-v-7aa04925] {
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0 auto;
+}
+.content[data-v-7aa04925] {
+    padding: 20px;
+}
+ul[data-v-7aa04925] {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+li[data-v-7aa04925] {
+    margin-bottom: 10px;
+}

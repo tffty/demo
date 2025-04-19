@@ -1,0 +1,43 @@
+
+.container[data-v-9a254acf] {
+    padding-top: 0px;
+    background-color: #f5f5f5;
+	min-height: 100vh; /* 设置最小高度为 100% 视口高度 */
+}
+
+/* 新增状态栏样式 */
+.status-bar[data-v-9a254acf] {
+    height: 20px;
+    background-color: #007aff;
+}
+.nav-bar[data-v-9a254acf] {
+    height: 44px;
+    background-color: #007aff;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.back-button[data-v-9a254acf] {
+    position: absolute;
+    left: 15px;
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+}
+.nav-title[data-v-9a254acf] {
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0 auto;
+}
+.category-list[data-v-9a254acf] {
+    padding: 20px;
+}
+.category-item[data-v-9a254acf] {
+    background-color: #fff;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}

@@ -1,0 +1,43 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/user/user",
+    "pages/community/community",
+    "pages/n1/n1",
+    "pages/n2/n2",
+    "pages/n3/n3",
+    "pages/n4/n4",
+    "pages/send/send"
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "轻院知",
+    "navigationBarBackgroundColor": "#fff",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#9799a5",
+    "selectedColor": "#28B389",
+    "list": [
+      {
+        "text": "论坛",
+        "pagePath": "pages/community/community",
+        "iconPath": "/static/images/commont.jpg",
+        "selectedIconPath": "/static/images/commont.png"
+      },
+      {
+        "text": "首页",
+        "pagePath": "pages/index/index",
+        "iconPath": "/static/images/school.png",
+        "selectedIconPath": "/static/images/school-h.png"
+      },
+      {
+        "text": "个人",
+        "pagePath": "pages/user/user",
+        "iconPath": "/static/images/y0dM3gcAO9.jpg",
+        "selectedIconPath": "/static/images/y0dM3gcAO9.png"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

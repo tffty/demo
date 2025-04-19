@@ -1,0 +1,179 @@
+
+/* 基础样式 */
+.container {
+  padding: 16px;
+  background: #f8f9fc;
+  min-height: 100vh;
+  font-family: system-ui, -apple-system, sans-serif;
+}
+
+/* 用户信息卡片 */
+.user-card {
+  background: #fff;
+  border-radius: 16px;
+  padding: 20px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  margin-bottom: 20px;
+}
+.user-header {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+.avatar-wrapper {
+  position: relative;
+  cursor: pointer;
+}
+.avatar {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.user-info h2 {
+  margin: 0;
+  color: #333;
+  font-size: 20px;
+  cursor: pointer;
+}
+.user-info p {
+  margin: 4px 0 0;
+  color: #666;
+  font-size: 14px;
+  cursor: pointer;
+}
+.edit-input {
+  width: 100%;
+  border: 2px solid #4a90e2;
+  border-radius: 8px;
+  padding: 4px 8px;
+  text-align: left;
+  font: inherit;
+  outline: none;
+}
+
+/* 导航网格 */
+.nav-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 12px;
+  margin-bottom: 24px;
+}
+.nav-item {
+  background: white;
+  border-radius: 12px;
+  padding: 16px;
+  text-align: center;
+  transition: transform 0.2s;
+  cursor: pointer;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+.nav-item:active {
+  transform: scale(0.96);
+}
+.nav-icon {
+  font-size: 28px;
+  margin-bottom: 8px;
+}
+.nav-text {
+  color: #444;
+  font-size: 13px;
+  font-weight: 500;
+}
+
+/* 课程表样式 */
+.schedule-box {
+  background: white;
+  border-radius: 16px;
+  padding: 20px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  margin-bottom: 24px;
+}
+.schedule-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+}
+.schedule-header h3 {
+  margin: 0;
+  color: #333;
+  font-size: 18px;
+}
+.icon-button {
+  background: none;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  color: #666;
+  font-size: 14px;
+}
+.schedule-table-wrapper {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  touch-action: pan-x;
+}
+.schedule-table {
+  display: grid;
+  grid-template-columns: 80px repeat(7, 1fr);
+  border-radius: 12px;
+  overflow: hidden;
+  border: 1px solid #eee;
+  min-width: 600px; /* 防止表格过窄 */
+}
+.table-header {
+  display: contents;
+}
+.table-header > view {
+  background: #f8f9fc;
+  padding: 12px;
+  font-weight: 500;
+  color: #666;
+}
+.table-row {
+  display: contents;
+}
+.time-cell, .course-cell {
+  padding: 16px;
+  min-height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 1px solid #eee;
+  text-align: center;
+}
+.course-cell {
+  cursor: pointer;
+  transition: background 0.2s;
+  position: relative;
+}
+.course-cell:active {
+  background: #f8f9fc;
+}
+.editing {
+  background: #f5f8ff !important;
+}
+
+/* 通用设置和关于我们模块 */
+.settings-about {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+}
+.setting-item {
+  background: white;
+  border-radius: 8px;
+  padding: 12px 24px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  transition: background 0.2s;
+}
+.setting-item:hover {
+  background: #f8f9fc;
+}
